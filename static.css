@@ -1,0 +1,53 @@
+body{
+  background: pink;
+}
+.Parent{
+  background: grey;
+  border-style: groove;
+  border-radius: 30px;
+  border-radius: red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 100%;
+}
+.child{
+  background-color: #41d5ff;
+  box-shadow: 5px 5px 5px black;
+  border-style: groove;
+  border-radius: 30px;
+  border-color: black;
+  width: 30%;
+  height: 70%;
+}
+.child2{
+  background-color:#9FD495;
+  border-style: dotted;
+  border-radius: 20px;
+  border-radius: pink;
+  color: brown;
+  width: 69%;
+
+}
+img{
+  width: 100%;
+}
+p{
+  font-size: 20px;
+  font-style: italic;
+  color:yellow;
+}
+ul{
+  font-weight: bold;
+  font-style: italic;
+  color: navy;
+}
+.child:hover
+{
+  background-color:orange;
+  /* font-weight:bold;
+  font-size:20px; */
+}
+.child2:hover{
+  background-color: grey;
+}
